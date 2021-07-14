@@ -1,0 +1,897 @@
+@font-face {
+    /*Open Sans Semibold*/
+    font-family: "Open Sans-Semibold";
+    src: url(../fonts/Open_Sans/OpenSans-Semibold.ttf);
+    font-size: medium;
+    font-weight: 600;
+}
+
+@font-face {
+    /*Open Sans Regular*/
+    font-family: "Open Sans";
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+    font-size: medium;
+    font-weight: 400;
+}
+
+@font-face {
+    /*Source Sans Pro Light*/
+    font-family: "Source Sans Pro";
+    src: url(../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf);
+    font-size: medium;
+    font-weight: 400;
+}
+
+.body {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.wrapper {
+    background: url(../img/main/michael-warf-f8egRYt5RGk-unsplash.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
+/*HEADER*/
+
+.header {
+    /*background-color: #f5f5f5;*/
+    position: relative;
+    width: 100%;
+}
+
+.navigation {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo {
+    border: 3px solid #555555;
+    padding: 15px 20px;
+}
+
+.logo_title_letter {
+    /* Text style for "S" */
+    font-family: "Open Sans-Semibold";
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 34.55px;
+    color: #fc6744;
+    text-transform: uppercase;
+}
+
+.logo_letters {
+    /* Style for "Smart" */
+    font-family: "Open Sans-Semibold";
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 34.55px;
+    color: #555555;
+    text-transform: uppercase;
+}
+
+.nav {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.nav_link {
+    display: inline-block;
+    margin-left: 20px;
+    font-family: "Open Sans-Semibold";
+    font-weight: 400;
+    color: #555555;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    transition: 0.1s linear;
+}
+
+.nav_link:hover {
+    color: #ff5c36;
+}
+
+.smart_agency {
+    display: block;
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+
+.slogan {
+    padding-bottom: 25px;
+    font-family: "Open Sans-Semibold";
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 45px;
+    color: #626262;
+    ;
+}
+
+.smart {
+    color: #fc6744;
+}
+
+.smart_agency_text {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    max-width: 710px;
+    margin: 0 auto;
+}
+
+
+/*FORM*/
+
+.send_message {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: white;
+    width: 370px;
+    height: 400px;
+    margin-top: 80px;
+    margin-left: 150px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+}
+
+.form_title {
+    text-align: center;
+}
+
+.form_title_caps {
+    /* Text style for "S" */
+    font-family: "Open Sans-Semibold";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #fc6744;
+}
+
+.form_title_text {
+    /* Style for "Smart" */
+    font-family: "Open Sans-Semibold";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #555555;
+}
+
+.send {
+    width: 230px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ff5c36;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.send:hover {
+    background-color: #626262;
+}
+
+.btn_form {
+    padding-top: 18px;
+    text-align: center;
+}
+
+
+/*убираем рамки на инпутах и полях формы*/
+
+input,
+textarea {
+    outline: none;
+    border: none;
+    border-bottom: solid 1px #f2f2f2;
+}
+
+
+/*WORKING PROCESS*/
+
+.working_inner {
+    width: 100%;
+    height: 780px;
+}
+
+.text_working_process {
+    margin: 0 auto;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.working_slogan {
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+
+.working_process_set {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.working_process_item_1 {
+    width: 260px;
+    height: 260px;
+    background-color: #4eb2f7;
+    position: relative;
+}
+
+.working_process_item_2 {
+    width: 260px;
+    height: 260px;
+    background-color: #c049f8;
+    position: relative;
+}
+
+.working_process_item_3 {
+    width: 260px;
+    height: 260px;
+    background-color: #817eff;
+    position: relative;
+}
+
+.working_process_item_4 {
+    width: 260px;
+    height: 260px;
+    background-color: #f74770;
+    position: relative;
+}
+
+.working_process_inner {
+    padding: 40px 50px 0 50px;
+    text-align: center;
+}
+
+.item_title {
+    padding-top: 10px;
+    font-family: "Open Sans - Semibold";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 42px;
+    color: #ffffff;
+}
+
+.item_text {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.know_more_btn {
+    position: absolute;
+    bottom: -20px;
+    left: 15px;
+    width: 230px;
+    height: 55px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 1px 6px 14px rgba(20, 20, 21, 0.09);
+    cursor: pointer;
+    /*убираем, контур, который возникает вокруг кнопки при нажатии*/
+    outline: 0;
+    background-color: white;
+    font-family: "Open Sans";
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.know_more_btn:hover {
+    background-color: #ff5c36;
+    color: white;
+}
+
+
+/*FEATURED WORKS*/
+
+.featured_works {
+    background-color: #fbfbfb;
+}
+
+.featured_slogan {
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 115px;
+}
+
+.featured_works_text {
+    font-family: "Open Sans";
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.works_gallery {
+    display: flex;
+}
+
+.works_col {
+    /*все 3 колонки одинаковые по ширине*/
+    flex: 1 1 0;
+}
+
+.works_item {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    /*прописываем градиент, который наложится на картинку при клике на нее*/
+    background: linear-gradient(to bottom, #f38181, #fce38a);
+}
+
+
+/*предполагается что при наведении мыши на .works_item:hover элемент .works_image увеличит прозрачность картинки, и проявится градиент, являющийся подложкой*/
+
+.works_item:hover .works_image {
+    opacity: 0.1;
+}
+
+.works_item:hover .works_info {
+    opacity: 1;
+}
+
+.works_image {
+    /*при наведении мыши прозрачность картинки уменьшается в течение 0,1 сек*/
+    transition: opacity 0.2s linear;
+    /*прописываем display: block, чтобы слой с градиентом наложился под картинку без сдвигов и отступов*/
+    display: block;
+    /*т.к. картинки очень большие, то появляется горизонтальная полоса прокрутки. Убираем ее за счет max-width: 100%;height: auto; таким образом подогнав картинки под ширину экрана.*/
+    max-width: 100%;
+    height: auto;
+}
+
+.works_info {
+    /*выравниваем этот блок по центру по вертикали*/
+    width: 100%;
+    padding: 0 15px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+    transform: translate3d(0, -50%);
+    text-align: center;
+    color: white;
+    /*скрываем блок .works_info и замедляем это на 0,2 сек, а при наводе на .works_item:hover сделаем видимым блок .works_info (см. выше)*/
+    opacity: 0;
+    transition: opacity 0.2s linear;
+}
+
+.works_title {
+    margin-bottom: 5px;
+    font-family: "Open Sans - Semibold";
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.works_text {
+    font-family: "Open Sans";
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+
+/*SERVICES WE PROVIDE*/
+
+.services_text {
+    font-family: "Open Sans";
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.services_slogan {
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 120px;
+}
+
+.services_gallery {
+    /*прописывая отрицательный мерджин в родительском блоке и такой же положительный паддинг во вложенном, мы избегаем дополнительных марджинов у первой и последней колонки */
+    margin: 0 -15px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.services_column {
+    padding: 0 15px;
+}
+
+.services_column--first {
+    width: 15%;
+}
+
+.services_column--second {
+    width: 50%;
+    padding: 0 10px;
+    position: relative;
+}
+
+.services_gallery_title {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45.74px;
+}
+
+.services_gallery_title:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 20px 10px;
+}
+
+.services_gallery_text {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.services_column--third {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servises_item {
+    text-align: center;
+}
+
+.services_image {
+    margin-bottom: 10px;
+    padding: 30px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 14px rgba(20, 20, 21, 0.09);
+    ;
+}
+
+.services_image:hover {
+    background-color: #d3d3d3;
+}
+
+.btn_services {
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    width: 230px;
+    height: 55px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 14px rgba(20, 20, 21, 0.09);
+    cursor: pointer;
+    /*убираем, контур, который возникает вокруг кнопки при нажатии*/
+    outline: 0;
+    background-color: white;
+    font-family: "Open Sans";
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.btn_services:hover {
+    background-color: #d3d3d3;
+    color: white;
+}
+
+
+/*TEAM CHINEN & SKILLS*/
+
+.team {
+    background-color: #fbfbfb;
+}
+
+.team_slogan {
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 115px;
+}
+
+.team_text {
+    font-family: "Open Sans";
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.team_gallery {
+    /*здесь делаем отрицательные margin, поскольку в следующем элементе сделали padding 15пикс, чтобы отодвинуть содержимое от краев на малых экранах*/
+    margin: 0 -15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team_columns {
+    width: 33.3333%;
+    padding: 0 15px;
+}
+
+.team_inner {
+    /*Делаем оранжевый фон элементу,чтобы при нажатии мыши картинка сдвигалась вверх и влево, а фон оставался*/
+    background-color: #ff5c36;
+    /*делаем позицию relative (зависимой) от элемента .team_text, которому прописываем position: absolute, для того, чтобы картинка .team_img и наложеный текст не вылазили за границы блока*/
+    position: relative;
+}
+
+
+/*Делаем сдвиг влево и вверх для картинок при наведении мыши*/
+
+.team_inner:hover .team_img {
+    transform: translate3d(-10px, -10px, 0);
+}
+
+
+/*Делаем затемнение для картинок при наведении мыши*/
+
+.team_inner:hover .team_img img {
+    opacity: 0.1;
+}
+
+
+/*Делаем текст на картинке видимым при наведении мыши*/
+
+.team_inner:hover .team_text {
+    opacity: 1;
+}
+
+.team_img {
+    /*т.к. картинки очень большие, то появляется горизонтальная полоса прокрутки. Убираем ее за счет max-width: 100%;height: auto; таким образом подогнав картинки под ширину экрана.*/
+    max-width: 100%;
+    height: auto;
+    /*Делаем градиент для картинок при наведении мыши*/
+    background: linear-gradient(to bottom, #f38381, #fce28a);
+    /*Делаем сдвиг картинки при наведении мыши более плавным*/
+    transition: transform 0.2s linear;
+}
+
+.team_img img {
+    display: block;
+    /*если не прописать  display: block, то снизу картинки будет проглядывать 1-2 мм градиента */
+    transition: opacity 0.1s linear;
+    /*прописываем ширину блока 100%, чтобы рисунки не выходили за пределы блока, высоту автоматически подгоняем под ширину*/
+    max-width: 100%;
+    height: auto;
+}
+
+.team_text {
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    /*текст скрыт(прозрачность нулевая), пока не наведется мышь*/
+    opacity: 0;
+    /*делаем позицию absolute (независимой) от элемента .team_inner, которому прописываем position: relative, для того, чтобы картинка .team_img и наложеный текст не вылазили за границы блока*/
+    position: absolute;
+    /*Выравниваем этот блок по центру*/
+    top: 50%;
+    left: 0;
+    z-index: 2;
+    transform: translate3d(0, -50%, 0);
+    transition: opacity 0.2s linear;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social_item {
+    width: 55px;
+    height: 50px;
+    padding: 10px;
+    background-color: hsl(47, 95%, 76%);
+    border-right: 1px solid #f38181;
+    text-decoration: none;
+    color: #f38181;
+    /*увеличиваем размер иконок, которые вставляем через ссылку на сайт*/
+    font-size: 40px;
+    line-height: 1;
+    transition: background 0.2s linear, color 0.2s linear;
+}
+
+.social_item:last-child {
+    border-right: 0;
+}
+
+.social_item:hover {
+    background-color: #f38181;
+    color: white;
+}
+
+
+/*---CLIENTS SAID---*/
+
+.clients_text {
+    font-family: "Open Sans";
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+
+/*SLIDER*/
+
+
+/*Сам слайдер*/
+
+
+/* Собственно сам слайдер */
+
+.slider {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    height: 300px;
+    margin-bottom: 15px;
+}
+
+
+/* Кнопки вперед и назад */
+
+.slider .prev,
+.slider .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* При наведении на кнопки добавляем фон кнопок */
+
+.slider .prev:hover,
+.slider .next:hover {
+    background-color: rgba(255, 92, 54, 0.8);
+}
+
+
+/* Кружочки */
+
+.slider-dots {
+    text-align: center;
+    /*только в этом проекте делаем паддинг боттом*/
+    padding-bottom: 140px;
+}
+
+.slider-dots_item {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.slider-dots_item:hover {
+    background-color: #aaa;
+}
+
+
+/* Анимация слайдов */
+
+.slider .item {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/*Внутренности слайдера*/
+
+.review_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.review_box {
+    width: 540px;
+    height: 270px;
+    box-shadow: 0 0 14px rgba(20, 20, 21, 0.09);
+    position: relative;
+}
+
+.review_photo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: 220px;
+    z-index: 100;
+}
+
+.review_text {
+    margin-top: 90px;
+    padding: 0 50px;
+    text-align: center;
+    color: #000000;
+    font-family: "Source Sans Pro";
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.review_stars {
+    margin-top: 15px;
+    text-align: center;
+    color: yellow;
+}
+
+.review_client_name {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.review_name {
+    color: #000000;
+    font-family: "Source Sans Pro";
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 27px;
+}
+
+.review_position {
+    color: #000000;
+    font-family: "Source Sans Pro";
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+
+/*BRANDS*/
+
+.brands {
+    background-color: #fbfbfb;
+}
+
+.brands_pool {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+/*FOOTER*/
+
+.footer {
+    background-color: #f7f7f7;
+}
+
+.footer_inner {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_contact_button {
+    text-align: center;
+}
+
+.contact_us {
+    width: 240px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 2px 11px 20px rgba(20, 20, 21, 0.07);
+    margin-bottom: 50px;
+    border: 1px solid rgba(1, 2, 2, 0.07);
+    cursor: pointer;
+    outline: none;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.contact_us:hover {
+    background-color: #f38181;
+    color: white;
+}
+
+.footer_bottom {
+    text-align: center;
+}
+
+.footer_bottom a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-size: 30px;
+    color: #d3d3d3;
+}
+
+.footer_bottom a:hover {
+    color: #f38181;
+}
+
+.footer_copyright {
+    margin-left: 15px;
+    color: #040404;
+    font-family: "Open Sans";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 46px;
+}
